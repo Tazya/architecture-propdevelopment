@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2025-06-22T13:49:37.770Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.2 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="kEytJJeqjvXaYU05efpJ" version="22.0.2" type="device">
+<mxfile host="Electron" modified="2025-06-23T03:50:52.912Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.2 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="DM-evbs3VXo5nX2jz4wa" version="22.0.2" type="device">
   <diagram name="Page-1" id="_2bn80l1WvolR0eFwuQx">
-    <mxGraphModel dx="2092" dy="1978" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2920" dy="2563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -126,6 +126,9 @@
         <mxCell id="eKt4zGXAnMbcLxMi73FN-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eKt4zGXAnMbcLxMi73FN-7" target="eKt4zGXAnMbcLxMi73FN-52">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="eKt4zGXAnMbcLxMi73FN-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eKt4zGXAnMbcLxMi73FN-7" target="eKt4zGXAnMbcLxMi73FN-101">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="eKt4zGXAnMbcLxMi73FN-7" value="Секретные данные" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="130" y="320" width="120" height="60" as="geometry" />
         </mxCell>
@@ -211,19 +214,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eKt4zGXAnMbcLxMi73FN-51" value="Пароли и API-ключи (утечка - критический, искажение - значительный)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="-100" y="170" width="110" height="95" as="geometry" />
+          <mxGeometry x="-180" y="80" width="110" height="95" as="geometry" />
         </mxCell>
         <mxCell id="eKt4zGXAnMbcLxMi73FN-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eKt4zGXAnMbcLxMi73FN-52" target="eKt4zGXAnMbcLxMi73FN-79">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eKt4zGXAnMbcLxMi73FN-52" value="&amp;nbsp;Доступ к видеонаблюдению (утечка - значительный, потеря - значительный)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="-100" y="300" width="110" height="100" as="geometry" />
+          <mxGeometry x="-180" y="350" width="110" height="100" as="geometry" />
         </mxCell>
         <mxCell id="eKt4zGXAnMbcLxMi73FN-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eKt4zGXAnMbcLxMi73FN-53" target="eKt4zGXAnMbcLxMi73FN-78">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eKt4zGXAnMbcLxMi73FN-53" value="Ключи шифрования (утечка - критический, искажение, обесценивание - значительный" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="-100" y="440" width="110" height="120" as="geometry" />
+          <mxGeometry x="-180" y="490" width="110" height="120" as="geometry" />
         </mxCell>
         <mxCell id="eKt4zGXAnMbcLxMi73FN-65" value="Некачественные данные адресов могут ввести в заблуждение" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;glass=0;shadow=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
           <mxGeometry x="130" y="-100" width="110" height="80" as="geometry" />
@@ -265,13 +268,22 @@
           <mxGeometry x="-20" y="810" width="110" height="130" as="geometry" />
         </mxCell>
         <mxCell id="eKt4zGXAnMbcLxMi73FN-78" value="Компроментация ключей шифрования может привести к утечке других важных данных. Их несвоевременное обновление или искажение может повлиять на работоспособность системы" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;glass=0;shadow=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="-380" y="440" width="240" height="120" as="geometry" />
+          <mxGeometry x="-460" y="490" width="240" height="120" as="geometry" />
         </mxCell>
         <mxCell id="eKt4zGXAnMbcLxMi73FN-79" value="Несанкционированный доступ к видеозаписям объектов несет прямую угрозу жителям и может использоваться злоумышленниками" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;glass=0;shadow=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="-380" y="300" width="240" height="100" as="geometry" />
+          <mxGeometry x="-460" y="350" width="240" height="100" as="geometry" />
         </mxCell>
         <mxCell id="eKt4zGXAnMbcLxMi73FN-80" value="Пароли и API-ключи. Утечка может привести к неработоспособности или даже утраты части функционала. Утечка паролей может привести к значительному репутационному ущербу" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;glass=0;shadow=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="-380" y="170" width="240" height="95" as="geometry" />
+          <mxGeometry x="-460" y="80" width="240" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="eKt4zGXAnMbcLxMi73FN-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="eKt4zGXAnMbcLxMi73FN-101" target="eKt4zGXAnMbcLxMi73FN-102" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eKt4zGXAnMbcLxMi73FN-101" value="&amp;nbsp;Доступ к управлению IoT-устройствами" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="210" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="eKt4zGXAnMbcLxMi73FN-102" value="Несанкционированный доступ к дверям и автоматике в жилых помещениях может создавать угрозу имуществу и здоровью жильцов" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;glass=0;shadow=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-460" y="210" width="240" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
